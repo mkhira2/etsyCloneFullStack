@@ -1,0 +1,243 @@
+/*--------------------------------------------------
+ALWAYS INCLUDE
+--------------------------------------------------*/
+
+* {
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    text-align: center;
+    padding: 15px;
+    background: #E3DEC1;
+}
+
+
+/*--------------------------------------------------
+NAV / SEARCH BAR
+--------------------------------------------------*/
+
+hr {
+    width: 60%;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.headline {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    color: orangered;
+    text-decoration: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: ivory;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+}
+
+.headline:hover { /* keep headline style the same on hover */
+    text-decoration: none;
+    color: orangered;
+}
+
+.headline:visited { /* keep headline style the same after click */
+    text-decoration: none;
+    color: orangered;
+}
+
+.navBar {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.search {
+    text-align: center;
+    width: 40%;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.suggestion {
+    margin: 10px;
+}
+
+.suggestion:visited { /* keep link style the same after click */
+    color: blue;
+}
+
+.links {
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.loadingGif {
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+/*--------------------------------------------------
+ITEM BOXES
+--------------------------------------------------*/
+
+.container {
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.itemContainer {
+    display: inline-block;
+    vertical-align: top;
+    background-color: ivory;
+    color: #3a7999;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    border: 4px solid #214339;
+}
+
+.itemContainer:hover { /* invert container colors on hover */
+    background: #E3DEC1;
+    color: #3a7999;
+}
+
+.itemContainer:active {
+    box-shadow: inset 0 0 0 5px #214339;
+}
+
+.title { /* keeps title text to one line */
+    margin: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.price {
+    background: green;
+    color: white;
+}
+
+
+/*--------------------------------------------------
+DETAIL PAGE
+--------------------------------------------------*/
+
+.detailPage {
+    text-align: center;
+    display: flex;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.detailShop {
+    font-style: italic;
+}
+
+.detailTitle {
+    font-size: 24px;
+    color: orangered;
+    margin: 20px;
+}
+
+.detailImg {
+    margin: 20px 15px 15px 15px;
+    height: 500px;
+    border: 4px solid white;
+}
+
+.detailDescription {
+    font-size: 18px;
+    color: black;
+    margin: 40px 0;
+    background: darkslategrey;
+    border-radius: 3%;
+    padding: 3%;
+    color: white;
+}
+
+.leftSide {
+    width: 75%;
+    padding: 20px;
+}
+
+.rightSide {
+    width: 75%;
+    padding: 20px;
+}
+
+p {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p a {
+    margin: 0 20px;
+}
+
+p a:visited {
+    color: blue;
+}
+
+input {
+    margin: 0 10px;
+    text-align: center;
+}
+
+/*--------------------------------------------------
+LISTINGS PAGE
+--------------------------------------------------*/
+
+.listings:visited {
+    color: blue;
+}
+
+.listingsForm {
+    padding-top: 25px;
+    color: orangered;
+}
+
+.listingContainer {
+    color: black;
+    font-size: 12px;
+    border: 1px solid black;
+    background: white;
+    box-shadow: 2px 2px black;
+    padding: 10px;
+    width: 50%;
+    text-align: center;
+    margin: 20px auto;
+
+}
+
+button {
+    margin-top: 10px;
+}
+
+/*--------------------------------------------------
+MEDIA QUERIES
+--------------------------------------------------*/
+
+@media (max-width: 550px) {
+
+.headline {
+    font-size: 28px;
+    }
+}
