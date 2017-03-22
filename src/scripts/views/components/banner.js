@@ -24,7 +24,7 @@ var Banner = React.createClass({
         			<hr />
     				</div>
     				<div className='myListings'>My Listings:
-    				<a href="#myListings" className="listings"> My Listings</a>
+    				<a href="#myListings" className="listings"> View</a>
     				</div>
 				</div>
 			</div>
