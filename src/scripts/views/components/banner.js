@@ -12,10 +12,10 @@ var Banner = React.createClass({
 	render: function(){
 		return (
 			<div className="banner">
-				<a href="#home" className="headline"><h1>Do You Even Etsy, Bro?</h1></a>
+				<a href="#home" className="headline"><h1>Getsy</h1></a>
     			<hr />
     			<div className='navBar'>
-    				<input className='search' placeholder="You lookin' for teeth?" onKeyDown={this._handleKeyDown}/>
+    				<input className='search' placeholder="What are you looking for?" onKeyDown={this._handleKeyDown}/>
     				<div className="links">Or perhaps you'd enjoy:
         			<a href="#search/vintage vinyl records" className="suggestion">Vintage Vinyl</a>
         			<a href="#search/crazy cufflinks" className="suggestion">Cool Cufflinks</a>
