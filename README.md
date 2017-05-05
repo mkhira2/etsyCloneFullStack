@@ -10,7 +10,8 @@ of ads and distractions. Enjoy!
 
 ## Installation
 
-```git clone https://github.com/mkhira2/etsyCloneFullStack.git
+```
+git clone https://github.com/mkhira2/etsyCloneFullStack.git
 cd etsyCloneFullStack
 npm install
 mongod
